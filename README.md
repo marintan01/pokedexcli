@@ -13,7 +13,7 @@ Assicurati di avere Go installato sul tuo sistema.
 
 1. Clona la repository:
    ```bash
-   git clone <il-tuo-link-repo>
+   git clone https://github.com/marintan01/pokedexcli
    cd pokedex
    ```
 
