@@ -32,5 +32,6 @@ Una volta avviata la CLI, puoi utilizzare i seguenti comandi:
 | `help` | Visualizza il messaggio di aiuto con tutti i comandi disponibili. |
 | `map` | Visualizza le successive 20 aree dei Pokémon. |
 | `mapb` | Visualizza le precedenti 20 aree dei Pokémon. |
-| `explore` | Given the location name it return the list of pokemons. |
+| `explore` | Visualilzza la lista dei pokemon presenti nell'area scelta |
+| `catch` | Cattuare il pokemon scelto|
 | `exit` | Chiude l'applicazione Pokedex. |
