@@ -5,7 +5,7 @@ import (
 	"github.com/marintan01/pokedexcli/internal/pokeapi"
 )
 
-func commandMapNext(cfg *config) error {
+func commandMapNext(cfg *config, args []string) error {
 
 	locations, err := pokeapi.GetLocations(cfg.cache, cfg.next)
 	if err != nil {
@@ -23,7 +23,7 @@ func commandMapNext(cfg *config) error {
 
 }
 
-func commandMapPrevious(cfg *config) error {
+func commandMapPrevious(cfg *config, args []string) error {
 
 	if cfg.previous == nil {
 		fmt.Println("you're on the first page")

@@ -47,6 +47,8 @@ func GetLocations(pokecache *pokecache.Cache, pageUrl *string) (PokemonLocations
 		return PokemonLocations{}, err
 	}
 
+	pokecache.Add(full_url, body)
+
 	return location, nil
 
 }
