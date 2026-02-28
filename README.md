@@ -34,4 +34,5 @@ Una volta avviata la CLI, puoi utilizzare i seguenti comandi:
 | `mapb` | Visualizza le precedenti 20 aree dei Pokémon. |
 | `explore` | Visualilzza la lista dei pokemon presenti nell'area scelta |
 | `catch` | Cattuare il pokemon scelto|
+| `inspect` | Ispeziona le statistiche del pokemon selezionato|
 | `exit` | Chiude l'applicazione Pokedex. |
