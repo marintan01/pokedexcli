@@ -35,4 +35,5 @@ Una volta avviata la CLI, puoi utilizzare i seguenti comandi:
 | `explore` | Visualilzza la lista dei pokemon presenti nell'area scelta |
 | `catch` | Cattuare il pokemon scelto|
 | `inspect` | Ispeziona le statistiche del pokemon selezionato|
+| `pokedex` | Mostra la lista dei pokemon catturati |
 | `exit` | Chiude l'applicazione Pokedex. |
